@@ -1,26 +1,56 @@
-name: Daily Travel Article Generator
+const fs = require("fs");
 
-on:
-  schedule:
-    - cron: "0 9 * * *"
-  workflow_dispatch:
+const affiliateLink =
+  "https://convert.ctypy.com/aff_c?offer_id=29465&aff_id=21885";
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+const topics = [
+  "Cheap Flights from USA to Europe",
+  "Best Time to Book International Flights",
+  "How to Find Last Minute Flight Deals",
+  "Budget Travel Tips for 2026",
+  "Skyscanner Flight Hacks",
+  "How to Save Money on Airline Tickets",
+  "Best Cities for Cheap Travel in Europe"
+];
 
-    steps:
-      - uses: actions/checkout@v3
+function pickTopic() {
+  return topics[Math.floor(Math.random() * topics.length)];
+}
 
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
+function generateArticle(topic) {
+  return `---
+title: "${topic}"
+date: ${new Date().toISOString()}
+---
 
-      - run: node generate.js
+# ${topic}
 
-      - run: |
-          git config user.name "auto-bot"
-          git config user.email "auto-bot@users.noreply.github.com"
-          git add .
-          git commit -m "daily travel article"
-          git push
+## Introduction
+Travel planning can significantly reduce costs when done strategically.
+
+## Key Insights
+Flight pricing changes based on demand, timing, and flexibility.
+
+## Tips
+- Use flexible dates  
+- Compare nearby airports  
+- Track price drops  
+
+## Recommended Tool
+${affiliateLink}
+
+## Conclusion
+Consistent comparison leads to better travel savings.
+`;
+}
+
+const topic = pickTopic();
+const fileName = `post-${Date.now()}.md`;
+
+if (!fs.existsSync("./posts")) {
+  fs.mkdirSync("./posts");
+}
+
+fs.writeFileSync(`./posts/${fileName}`, generateArticle(topic));
+
+console.log("Generated:", fileName);
