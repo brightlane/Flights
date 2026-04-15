@@ -1,24 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Homepage -->
   <url>
     <loc>https://brightlane.github.io/Flights/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Posts folder index (optional if you have one) -->
+
   <url>
-    <loc>https://brightlane.github.io/Flights/posts/</loc>
+    <loc>https://brightlane.github.io/Flights/posts/post-1776254361414.md</loc>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://brightlane.github.io/Flights/posts/post-1776254782129.md</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://brightlane.github.io/Flights/posts/post-1776254898382.md</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://brightlane.github.io/Flights/posts/post-1776255300752.md</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>
-<url>
-  <loc>https://brightlane.github.io/Flights/rss.xml</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.8</priority>
-</url>
