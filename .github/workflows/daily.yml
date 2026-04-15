@@ -28,3 +28,5 @@ jobs:
           git add .
           git commit -m "daily travel article" || echo "No changes"
           git push
+      - name: Generate sitemap
+        run: node generate-sitemap.js
