@@ -50,4 +50,10 @@
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://brightlane.github.io/Flights/posts/post-1776592127260.md</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
