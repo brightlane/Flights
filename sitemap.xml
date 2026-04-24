@@ -1,83 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- 🏠 HOME -->
   <url>
     <loc>https://brightlane.github.io/Flights/</loc>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-
+  <!-- ✈️ SEARCH / MAIN HUB -->
   <url>
-    <loc>https://brightlane.github.io/Flights/posts/post-1776254361414.md</loc>
+    <loc>https://brightlane.github.io/Flights/search.html</loc>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- 💰 CORE FLIGHT DEAL PAGES -->
+  <url>
+    <loc>https://brightlane.github.io/Flights/cheap-flights.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
   </url>
 
   <url>
-    <loc>https://brightlane.github.io/Flights/posts/post-1776254782129.md</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://brightlane.github.io/Flights/flight-deals.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://brightlane.github.io/Flights/posts/post-1776254898382.md</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://brightlane.github.io/Flights/last-minute-flights.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://brightlane.github.io/Flights/posts/post-1776255300752.md</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://brightlane.github.io/Flights/international-flights.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 🚀 CONVERSION / HIGH INTENT PAGES -->
+  <url>
+    <loc>https://brightlane.github.io/Flights/best-flight-booking.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://brightlane.github.io/Flights/posts/post-1776334583311.md</loc>
+    <loc>https://brightlane.github.io/Flights/travel-hacks.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- 📘 BLOG HUB -->
+  <url>
+    <loc>https://brightlane.github.io/Flights/blog.html</loc>
+    <lastmod>2026-04-23</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 📄 SUPPORT / TRUST -->
+  <url>
+    <loc>https://brightlane.github.io/Flights/about.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://brightlane.github.io/Flights/posts/post-1776420897540.md</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://brightlane.github.io/Flights/contact.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 
+  <!-- ⚠️ ERROR PAGE -->
   <url>
-    <loc>https://brightlane.github.io/Flights/posts/post-1776505830127.md</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://brightlane.github.io/Flights/posts/post-1776592127260.md</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://brightlane.github.io/Flights/posts/post-1776682160991.md</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://brightlane.github.io/Flights/posts/post-1776766718111.md</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://brightlane.github.io/Flights/posts/post-1776853155218.md</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://brightlane.github.io/Flights/posts/post-1776939700642.md</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://brightlane.github.io/Flights/404.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
   </url>
 
 </urlset>
